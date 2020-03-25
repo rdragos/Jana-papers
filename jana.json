@@ -35,7 +35,7 @@
       "label": "GRR+16",
       "abstract": "We discuss the design of symmetric primitives, in particular Pseudo-Random Functions (PRFs) which are suitable for use in a secret-sharing based MPC system. We consider three different PRFs: the Naor-Reingold PRF, a PRF based on the Legendre symbol, and a specialized block cipher design called MiMC. We present protocols for implementing these PRFs within a secret-sharing based MPC system, and discuss possible applications. We then compare the performance of our protocols. Depending on the application, different PRFs may offer different optimizations and advantages over the classic AES benchmark. Thus, we cannot conclude that there is one optimal PRF to be used in all situations.",
       "id": "5ae56da8a57446020b31bd5a670716867bbeac3d",
-      "venue": "CCS '16",
+      "venue": "CCS",
       "s2Url": "https://semanticscholar.org/paper/5ae56da8a57446020b31bd5a670716867bbeac3d",
       "authors": [
         "Lorenzo Grassi",
@@ -53,7 +53,7 @@
       "label": "KOS+16",
       "abstract": "We consider the task of secure multi-party computation of arithmetic circuits over a finite field. Unlike Boolean circuits, arithmetic circuits allow natural computations on integers to be expressed easily and efficiently. In the strongest setting of malicious security with a dishonest majority --- where any number of parties may deviate arbitrarily from the protocol --- most existing protocols require expensive public-key cryptography for each multiplication in the preprocessing stage of the protocol, which leads to a high total cost. We present a new protocol that overcomes this limitation by using oblivious transfer to perform secure multiplications in general finite fields with reduced communication and computation. Our protocol is based on an arithmetic view of oblivious transfer, with careful consistency checks and other techniques to obtain malicious security at a cost of less than 6 times that of semi-honest security. We describe a highly optimized implementation together with experimental results for up to five parties. By making extensive use of parallelism and SSE instructions, we improve upon previous runtimes for MPC over arithmetic circuits by more than 200 times.",
       "id": "c21c45dbf6b0652c8dbac32e83dc55536e07e738",
-      "venue": "CCS '16",
+      "venue": "CCS",
       "s2Url": "https://semanticscholar.org/paper/c21c45dbf6b0652c8dbac32e83dc55536e07e738",
       "authors": [
         "Marcel Keller",
@@ -182,7 +182,7 @@
       "year": 2018
     },
     {
-      "label": "KPR+17",
+      "label": "KPR17",
       "abstract": "SPDZ denotes a multiparty computation scheme in the preprocessing model based on somewhat homomorphic encryption (SHE) in the form of BGV. At CCS ’16, Keller et al. presented MASCOT, a replacement of the preprocessing phase using oblivious transfer instead of SHE, improving by two orders of magnitude on the SPDZ implementation by Damgard et al. (ESORICS ’13). In this work, we show that using SHE is faster than MASCOT in many aspects: \n \n1. \n \nWe present a protocol that uses semi-homomorphic (addition-only) encryption. For two parties, our BGV-based implementation is six times faster than MASCOT on a LAN and 20 times faster in a WAN setting. The latter is roughly the reduction in communication. \n \n \n \n \n2. \n \nWe show that using the proof of knowledge in the original work by Damgard et al. (Crypto ’12) is more efficient in practice than the one used in the implementation mentioned above by about one order of magnitude. \n \n \n \n \n3. \n \nWe present an improvement to the verification of the aforementioned proof of knowledge that increases the performance with a growing number of parties, doubling it for 16 parties.",
       "id": "922a6775722dcc59850262beba325516ce2d027d",
       "venue": "IACR Cryptology ePrint Archive",
@@ -489,7 +489,7 @@
       "label": "DDC+16",
       "abstract": "The security of order-revealing encryption (ORE) has been unclear since its invention. Dataset characteristics for which ORE is especially insecure have been identified, such as small message spaces and low-entropy distributions. On the other hand, properties like one-wayness on uniformly-distributed datasets have been proved for ORE constructions.\n This work shows that more plaintext information can be extracted from ORE ciphertexts than was previously thought. We identify two issues: First, we show that when multiple columns of correlated data are encrypted with ORE, attacks can use the encrypted columns together to reveal more information than prior attacks could extract from the columns individually. Second, we apply known attacks, and develop new attacks, to show that the leakage of concrete ORE schemes on non-uniform data leads to more accurate plaintext recovery than is suggested by the security theorems which only dealt with uniform inputs.",
       "id": "68a5e5de2ab6d79a7a78b8020be163cf9b8d02d0",
-      "venue": "CCS '16",
+      "venue": "CCS",
       "s2Url": "https://semanticscholar.org/paper/68a5e5de2ab6d79a7a78b8020be163cf9b8d02d0",
       "authors": [
         "F. Betül Durak",
@@ -599,7 +599,7 @@
       "label": "PGW+16",
       "abstract":"",
       "id": "a82c0e1adb3ab8cca18f2f48965e5aaa707f9221",
-      "venue":"2016 Annual Conference on Information Science and Systems (CISS)",
+      "venue":"CISS",
       "s2Url": "https://semanticscholar.org/paper/a82c0e1adb3ab8cca18f2f48965e5aaa707f9221",
       "authors": [
           "Hafiz Imtiaz",
@@ -678,7 +678,7 @@
       "label": "WSC+16",
       "abstract":"",
       "id": "0dc1433b35091767e57f5bd4181ae68fa4a5a7b8",
-      "venue": "2017 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+      "venue": "ICASSP",
       "s2Url": "https://semanticscholar.org/paper/0dc1433b35091767e57f5bd4181ae68fa4a5a7b8",
       "authors": [
           "Nikolas P. Wojtalewicz",
@@ -696,7 +696,7 @@
       "label": "WGL+17",
       "abstract":"",
       "id": "96b92737b6a37901b67fb1cac786dbe0aa9e8f50",
-      "venue": "2017 IEEE Symposium on Security and Privacy (SP)",
+      "venue": "IEEE Symposium on Security and Privacy",
       "s2Url": "https://semanticscholar.org/paper/96b92737b6a37901b67fb1cac786dbe0aa9e8f50",
       "authors": [
           "Liang Wang",
@@ -729,7 +729,7 @@
     {
       "label": "Keynote",
       "abstract":"",
-      "venue": "2017 Workshop on Women in Cyber Security",
+      "venue": "Workshop on Women in Cyber Security",
       "authors": [
           "Rutgers"
       ],
@@ -773,7 +773,7 @@
       "label": "ImtiazSarwate18",
       "abstract":"",
       "id": "98c61f0da5ee284d4da9c5496359e55921a4d44f",
-      "venue":"2018 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+      "venue":"ICASSP",
       "s2Url": "https://semanticscholar.org/paper/98c61f0da5ee284d4da9c5496359e55921a4d44f",
       "authors": [
           "Hafiz Imtiaz",
@@ -882,7 +882,7 @@
       "year": 2018
     },
     {
-      "label": "Rut20",
+      "label": "Rut19",
       "abstract":"",
       "id": "TBD2",
       "venue": "Submitted",
@@ -890,7 +890,7 @@
       "authors": [
           "TBD"
       ],
-      "title": "Differentially Private Online Active Learning: Theory and Practice",
+      "title": "Understanding Privacy-Utility Tradeoffs Using Differentially Private Online Active Learning",
       "tags": ["Rutgers"],
       "citations": 0,
       "year": 2019
@@ -931,13 +931,42 @@
       "label": "ImtiazSarwate19",
       "abstract":"",
       "id": "acc523459d2235f345c267df541d45cd35cb5463",
-      "venue":" Signal Processing (ICASSP)",
+      "venue":"ICASSP",
       "s2Url": "https://semanticscholar.org/paper/acc523459d2235f345c267df541d45cd35cb5463",
       "authors": [
           "Hafiz Imtiaz",
           "Anand D. Sarwate"
       ],
       "title":"Distributed Differentially-private Canonical Correlation Analysis",
+      "tags": ["Rutgers"],
+      "citations": 0,
+      "year": 2019
+    },
+    {
+      "label": "Rut17",
+      "abstract":"",
+      "id": "TBD5",
+      "venue":"NIPS",
+      "s2Url": "",
+      "authors": [
+      ],
+      "title":"Differentially Private Machine Learning: Theory, Algorithms, and Applications (Tutorial)",
+      "tags": ["Rutgers"],
+      "citations": 0,
+      "year": 2017
+    },
+    {
+      "label": "NKS19",
+      "abstract":"",
+      "id": "ed4b70cc1d5eb3e27979759dfed6d72bb2c395e9",
+      "venue":"ArXiv",
+      "s2Url": "https://semanticscholar.org/paper/ed4b70cc1d5eb3e27979759dfed6d72bb2c395e9",
+      "authors": [
+          "Konstantinos E. Nikolakakis",
+          "Dionysios S. Kalogerias",
+          "Anand D. Sarwate"
+      ],
+      "title":"Non-Parametric Structure Learning on Hidden Tree-Shaped Distributions",
       "tags": ["Rutgers"],
       "citations": 0,
       "year": 2019
@@ -957,7 +986,7 @@
       "tags": ["Rutgers"],
       "citations": 1,
       "year": 2018
-    }
+    },
     {
       "label": "Sub+19",
       "abstract":"",
