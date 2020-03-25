@@ -1,0 +1,49 @@
+@controls {
+  bottom {
+    group {
+      label: "Highlight: ";
+
+      showcase {
+        target: element;
+        by: "venue";
+        as: dropdown;
+        placeholder: "by venue";
+        margin-left: 20;
+        margin-right: 10;
+      }
+
+      showcase {
+        target: element;
+        by: "tags";
+        as: dropdown;
+        placeholder: "by institution";
+        margin-left: 10;
+        margin-right: 10;
+      }
+
+      showcase {
+        target: element;
+        by: "authors";
+        as: dropdown;
+        placeholder: "by author";
+        margin-left: 10;
+        margin-right: 10;
+      }
+    }
+  }
+}
+
+@settings {
+  template: custom;
+  element-flag: "tags" with #9CD1C7 "Bristol", #BDBBD7 "Rutgers", #EB8677 "GMU", #C5A16E "Galois", #B383B9 "PSU";
+  element-scale: scale("citations", 1, 2.5);
+}
+
+element {
+  size: 20;
+  color: white;
+  icon: file-alt;
+  icon-color: black;
+}
+
+

@@ -1,0 +1,1011 @@
+{
+    "elements": [
+    {
+      "label": "BOS+16",
+      "id": "6d773afe510332d1e72ecbbcf09c816b2210b16f",
+      "venue": "TCC",
+      "s2Url": "https://semanticscholar.org/paper/6d773afe510332d1e72ecbbcf09c816b2210b16f",
+      "authors": [
+        "Carsten Baum",
+        "Emmanuela Orsini",
+        "Peter Scholl"
+      ],
+      "title": "Efficient Secure Multiparty Computation with Identifiable Abort",
+      "year": 2016,
+      "citations": 9,
+      "tags": ["Bristol"]
+    },
+    {
+      "label": "COP+16",
+      "id": "4a502b6967a2bcec48fa6cda4750c4ad65184222",
+      "venue": "SCN",
+      "s2Url": "https://semanticscholar.org/paper/4a502b6967a2bcec48fa6cda4750c4ad65184222",
+      "authors": [
+        "Ashish Choudhury",
+        "Emmanuela Orsini",
+        "Arpita Patra",
+        "Nigel P. Smart"
+      ],
+      "title": "Linear Overhead Optimally-Resilient Robust MPC Using Preprocessing",
+      "year": 2016,
+      "citations": 1,
+      "tags": ["Bristol"]
+    },
+    {
+      "label": "GRR+16",
+      "abstract": "We discuss the design of symmetric primitives, in particular Pseudo-Random Functions (PRFs) which are suitable for use in a secret-sharing based MPC system. We consider three different PRFs: the Naor-Reingold PRF, a PRF based on the Legendre symbol, and a specialized block cipher design called MiMC. We present protocols for implementing these PRFs within a secret-sharing based MPC system, and discuss possible applications. We then compare the performance of our protocols. Depending on the application, different PRFs may offer different optimizations and advantages over the classic AES benchmark. Thus, we cannot conclude that there is one optimal PRF to be used in all situations.",
+      "id": "5ae56da8a57446020b31bd5a670716867bbeac3d",
+      "venue": "CCS '16",
+      "s2Url": "https://semanticscholar.org/paper/5ae56da8a57446020b31bd5a670716867bbeac3d",
+      "authors": [
+        "Lorenzo Grassi",
+        "Christian Rechberger",
+        "Dragos Rotaru",
+        "Peter Scholl",
+        "Nigel P. Smart"
+      ],
+      "title": "MPC-Friendly Symmetric Key Primitives",
+      "year": 2016,
+      "citations": 37,
+      "tags": ["Bristol"]
+    },
+    {
+      "label": "KOS+16",
+      "abstract": "We consider the task of secure multi-party computation of arithmetic circuits over a finite field. Unlike Boolean circuits, arithmetic circuits allow natural computations on integers to be expressed easily and efficiently. In the strongest setting of malicious security with a dishonest majority --- where any number of parties may deviate arbitrarily from the protocol --- most existing protocols require expensive public-key cryptography for each multiplication in the preprocessing stage of the protocol, which leads to a high total cost. We present a new protocol that overcomes this limitation by using oblivious transfer to perform secure multiplications in general finite fields with reduced communication and computation. Our protocol is based on an arithmetic view of oblivious transfer, with careful consistency checks and other techniques to obtain malicious security at a cost of less than 6 times that of semi-honest security. We describe a highly optimized implementation together with experimental results for up to five parties. By making extensive use of parallelism and SSE instructions, we improve upon previous runtimes for MPC over arithmetic circuits by more than 200 times.",
+      "id": "c21c45dbf6b0652c8dbac32e83dc55536e07e738",
+      "venue": "CCS '16",
+      "s2Url": "https://semanticscholar.org/paper/c21c45dbf6b0652c8dbac32e83dc55536e07e738",
+      "authors": [
+        "Marcel Keller",
+        "Emmanuela Orsini",
+        "Peter Scholl"
+      ],
+      "title": "MASCOT: Faster Malicious Arithmetic Secure Computation with Oblivious Transfer",
+      "year": 2016,
+      "citations": 141,
+      "tags": ["Bristol"]
+    },
+    {
+      "label": "OOS+16",
+      "abstract": "This paper describes a 1-out-of-N oblivious transfer (OT) extension protocol with active security, which achieves very low overhead on top of the passively secure protocol of Kolesnikov and Kumaresan (Crypto 2011). Our protocol obtains active security using a consistency check which requires only simple computation and has a communication overhead that is independent of the total number of OTs to be produced. We prove its security in both the random oracle model and the standard model, assuming a variant of correlation robustness. We describe an implementation, which demonstrates our protocol only costs around 5–30% more than the passively secure protocol.",
+      "id": "db89fd48ba12ffdc49de44b8cb8b57f14c3ce664",
+      "venue": "CT-RSA",
+      "s2Url": "https://semanticscholar.org/paper/db89fd48ba12ffdc49de44b8cb8b57f14c3ce664",
+      "authors": [
+        "Michele Orrù",
+        "Emmanuela Orsini",
+        "Peter Scholl"
+      ],
+      "title": "Actively Secure 1-out-of-N OT Extension with Application to Private Set Intersection",
+      "citations": 32,
+      "tags": ["Bristol"],
+      "year": 2016
+    },
+    {
+      "label": "LSS+16",
+      "abstract": "We present a multi-party computation protocol in the case of dishonest majority which has very low round complexity. Our protocol sits philosophically between Gentry's Fully Homomorphic Encryption based protocol and the SPDZ-BMR protocol of Lindell et al. CRYPTO 2015. Our protocol avoids various inefficiencies of the previous two protocols. Compared to Gentry's protocol we only require Somewhat Homomorphic Encryption SHE. Whilst in comparison to the SPDZ-BMR protocol we require only a quadratic complexity in the number of players as opposed to cubic, we have fewer rounds, and we require less proofs of correctness of ciphertexts. Additionally, we present a variant of our protocol which trades the depth of the garbling circuit computed using SHE for some more multiplications in the offline and online phases.",
+      "id": "d22a494695ae5aa83b499f0c41106cdd3b9e0e68",
+      "venue": "IACR Cryptology ePrint Archive",
+      "s2Url": "https://semanticscholar.org/paper/d22a494695ae5aa83b499f0c41106cdd3b9e0e68",
+      "authors": [
+        "Yehuda Lindell",
+        "Nigel P. Smart",
+        "Eduardo Soria-Vazquez"
+      ],
+      "title": "More Efficient Constant-Round Multi-Party Computation from BMR and SHE",
+      "citations": 14,
+      "tags": ["Bristol"],
+      "year": 2016
+    },
+    {
+      "label": "KOR+17",
+      "abstract": "We present an actively secure protocol for secure multi-party computation based on lookup tables, by extending the recent, two-party ‘TinyTable’ protocol of Damgard et al. (ePrint 2016). Like TinyTable, an attractive feature of our protocol is a very fast and simple online evaluation phase. We also give a new method for efficiently implementing the preprocessing material required for the online phase using arithmetic circuits over characteristic two fields. This improves over the suggested method from TinyTable by at least a factor of 50.",
+      "id": "ddda84420c2a5391c95de096fd7504a0aec5edf7",
+      "venue": "ACNS",
+      "s2Url": "https://semanticscholar.org/paper/ddda84420c2a5391c95de096fd7504a0aec5edf7",
+      "authors": [
+        "Marcel Keller",
+        "Emmanuela Orsini",
+        "Dragos Rotaru",
+        "Peter Scholl",
+        "Eduardo Soria-Vazquez",
+        "Srinivas Vivek"
+      ],
+      "title": "Faster Secure Multi-party Computation of AES and DES Using Lookup Tables",
+      "tags": ["Bristol"],
+      "citations": 14,
+      "year": 2017
+    },
+    {
+      "label": "HSS+17",
+      "abstract": "In this work, we present two new universally composable, actively secure, constant round multi-party protocols for generating BMR garbled circuits with free-XOR and reduced costs.",
+      "id": "411e4ecb35e5385ed0c88a36f0b2821c42af8f70",
+      "venue": "ASIACRYPT",
+      "s2Url": "https://semanticscholar.org/paper/411e4ecb35e5385ed0c88a36f0b2821c42af8f70",
+      "authors": [
+        "Carmit Hazay",
+        "Peter Scholl",
+        "Eduardo Soria-Vazquez"
+      ],
+      "title": "Low Cost Constant Round MPC Combining BMR and Oblivious Transfer",
+      "tags": ["Bristol"],
+      "citations": 34,
+      "year": 2017
+    },
+    {
+      "label": "SSW+17",
+      "abstract": "Many modern actively secure multi-party computation protocols make use of a function- and input-independent pre-processing phase. This pre-processing phase is tasked with producing some form of correlated randomness and distributing it to the parties. Whilst the “online” phase of such protocols is exceedingly fast, the bottleneck comes in the pre-processing phase. In this paper we examine situations in which the computing parties in the online phase may want to outsource the pre-processing phase to another set of parties, or to a sub-committee. We examine how this can be done, and also describe situations where this may be a benefit.",
+      "id": "036d5a5297f407eec3c98bf1611a308885506aef",
+      "venue": "IMACC",
+      "s2Url": "https://semanticscholar.org/paper/036d5a5297f407eec3c98bf1611a308885506aef",
+      "authors": [
+        "Peter Scholl",
+        "Nigel P. Smart",
+        "Tim Wood"
+      ],
+      "title": "When It's All Just Too Much: Outsourcing MPC-Preprocessing",
+      "tags": ["Bristol"],
+      "citations": 5,
+      "year": 2017
+    },
+    {
+      "label": "RSS+17",
+      "abstract": "We examine how two parallel modes of operation for Authenticated Encryption (namely CTR+PMAC and OTR mode) work when evaluated in a multiparty computation engine. These two modes are selected because they suit the PRFs examined in previous works. In particular the modes are highly parallel, and do not require evaluation of the inverse of the underlying PRF. In order to use these modes one needs to convert them from their original instantiation of being defined on binary blocks of data, to working on elememts in a large prime finite field. The latter fitting the use case of many secret-sharing based MPC engines. In doing this conversion we examine the associated security proofs of PMAC and OTR, and show that they carry over to this new setting.",
+      "id": "bfa502be6a1d989d927ff29c4849dfb6e519cf8f",
+      "venue": "IACR Trans. Symmetric Cryptol.",
+      "s2Url": "https://semanticscholar.org/paper/bfa502be6a1d989d927ff29c4849dfb6e519cf8f",
+      "authors": [
+        "Dragos Rotaru",
+        "Nigel P. Smart",
+        "Martijn Stam"
+      ],
+      "title": "Modes of Operation Suitable for Computing on Encrypted Data",
+      "tags": ["Bristol"],
+      "citations": 9,
+      "year": 2017
+    },
+    {
+      "label": "GOP+18",
+      "abstract": "In this work we first define semi-commutative (invertible) masking structures which present a simple abstraction to capture the various examples of protocol design that are based on exponentiation-only style operations (such as discrete logarithm and isogeny based cryptography). We discuss two possible instantiations of our structure: The first is based on commutative group actions and captures both the action of exponentiation in the discrete logarithm setting and also the action of the class group of commutative endomorphism rings of elliptic curves, in the style of the CSIDH key-exchange protocol; the second is based on the semi-commutative action of isogenies of supersingular elliptic curves, in the style of the SIDH key-exchange protocol. We then design two oblivious transfer protocols using this structure and prove that they securely UC-realise the standard OT-functionality in the Random-Oracle-hybrid model against passive adversaries with static corruptions. This paper thus introduces the first oblivious transfer protocol based on supersingular isogenies that is proven secure in the UC framework.",
+      "id": "f67f7fe31844d5f217260cb261541d3a62505995",
+      "venue": "IACR Cryptology ePrint Archive",
+      "s2Url": "https://semanticscholar.org/paper/f67f7fe31844d5f217260cb261541d3a62505995",
+      "authors": [
+        "Cyprien Delpech de Saint Guilhem",
+        "Emmanuela Orsini",
+        "Christophe Petit",
+        "Nigel P. Smart"
+      ],
+      "title": "Secure Oblivious Transfer from Semi-Commutative Masking",
+      "tags": ["Bristol"],
+      "citations": 3,
+      "year": 2018
+    },
+    {
+      "label": "KPR+17",
+      "abstract": "SPDZ denotes a multiparty computation scheme in the preprocessing model based on somewhat homomorphic encryption (SHE) in the form of BGV. At CCS ’16, Keller et al. presented MASCOT, a replacement of the preprocessing phase using oblivious transfer instead of SHE, improving by two orders of magnitude on the SPDZ implementation by Damgard et al. (ESORICS ’13). In this work, we show that using SHE is faster than MASCOT in many aspects: \n \n1. \n \nWe present a protocol that uses semi-homomorphic (addition-only) encryption. For two parties, our BGV-based implementation is six times faster than MASCOT on a LAN and 20 times faster in a WAN setting. The latter is roughly the reduction in communication. \n \n \n \n \n2. \n \nWe show that using the proof of knowledge in the original work by Damgard et al. (Crypto ’12) is more efficient in practice than the one used in the implementation mentioned above by about one order of magnitude. \n \n \n \n \n3. \n \nWe present an improvement to the verification of the aforementioned proof of knowledge that increases the performance with a growing number of parties, doubling it for 16 parties.",
+      "id": "922a6775722dcc59850262beba325516ce2d027d",
+      "venue": "IACR Cryptology ePrint Archive",
+      "s2Url": "https://semanticscholar.org/paper/922a6775722dcc59850262beba325516ce2d027d",
+      "authors": [
+        "Marcel Keller",
+        "Valerio Pastro",
+        "Dragos Rotaru"
+      ],
+      "title": "Overdrive: Making SPDZ Great Again",
+      "tags": ["Bristol"],
+      "citations": 78,
+      "year": 2017
+    },
+    {
+      "label": "KRS+17",
+      "abstract": "We show that the recent, highly efficient, three-party honest-majority computationally-secure MPC protocol of Araki et al. can be generalised to an arbitrary \\(Q_2\\) access structure. Part of the performance of the Araki et al. protocol is from the fact it does not use a complete communication network for the most costly part of the computation. Our generalisation also preserves this property. We present both passively- and actively-secure (with abort) variants of our protocol. In all cases we require fewer communication channels for secure multiplication than Maurer’s “MPC-Made-Simple” protocol for \\(Q_2\\) structures, at the expense of requiring pre-shared secret keys for Pseudo-Random Functions.",
+      "id": "2062eafdc94d8b546d0a13b43767651e101b2ffe",
+      "venue": "SCN",
+      "s2Url": "https://semanticscholar.org/paper/2062eafdc94d8b546d0a13b43767651e101b2ffe",
+      "authors": [
+        "Marcel Keller",
+        "Dragos Rotaru",
+        "Nigel P. Smart",
+        "Tim Wood"
+      ],
+      "title": "Reducing Communication Channels in MPC",
+      "tags": ["Bristol"],
+      "citations": 8,
+      "year": 2017
+    },
+    {
+      "label": "RMB+17",
+      "abstract": "In this paper we introduce two things: On one hand we introduce the Tile-Probe-and-Fault model, a model generalising the wire-probe model of Ishai et al. extending it to cover both more realistic side-channel leakage scenarios on a chip and also to cover fault and combined attacks. Secondly we introduce CAPA: a combined Countermeasure Against Physical Attacks. Our countermeasure is motivated by our model, and aims to provide security against higher-order SCA, multiple-shot FA and combined attacks. The tile-probe-and-fault model leads one to naturally look (by analogy) at actively secure multi-party computation protocols. Indeed, CAPA draws much inspiration from the MPC protocol SPDZ. So as to demonstrate that the model, and the CAPA countermeasure, are not just theoretical constructions, but could also serve to build practical countermeasures, we present initial experiments of proof-of-concept designs using the CAPA methodology. Namely, a hardware implementation of the KATAN and AES block ciphers, as well as a software bitsliced AES S-box implementation. We demonstrate experimentally that the design can resist second-order DPA attacks, even when the attacker is presented with many hundreds of thousands of traces. In addition our proof-of-concept can also detect faults within our model with high probability in accordance to the methodology.",
+      "id": "047a24c547130e9ec99471113efa6d34622196e8",
+      "venue": "CRYPTO",
+      "s2Url": "https://semanticscholar.org/paper/047a24c547130e9ec99471113efa6d34622196e8",
+      "authors": [
+        "Oscar Reparaz",
+        "Lauren De Meyer",
+        "Begül Bilgin",
+        "Victor Arribas",
+        "Svetla Nikova",
+        "Ventzislav Nikov",
+        "Nigel P. Smart"
+      ],
+      "title": "CAPA: The Spirit of Beaver against Physical Attacks",
+      "tags": ["Bristol"],
+      "citations": 12,
+      "year": 2018
+    },
+    {
+      "label": "ZhandryZhang17",
+      "abstract": "An Order-Revealing Encryption (ORE) scheme gives a public procedure by which two ciphertexts can be compared to reveal the order of their underlying plaintexts. The ideal security notion for ORE is that only the order is revealed—anything else, such as the distance between plaintexts, is hidden. The only known constructions of ORE achieving such ideal security are based on cryptographic multilinear maps and are currently too impractical for real-world applications.",
+      "id": "2663f6985a7a7a3a88715bf920a8c9fa2505163b",
+      "venue": "TCC",
+      "s2Url": "https://semanticscholar.org/paper/2663f6985a7a7a3a88715bf920a8c9fa2505163b",
+      "authors": [
+        "Mark Zhandry",
+        "Cong Zhang"
+      ],
+      "title": "Impossibility of Order-Revealing Encryption in Idealized Models",
+      "tags": ["Rutgers"],
+      "citations": 0,
+      "year": 2017
+    },
+    {
+      "label": "AGP+19",
+      "abstract": "Efficient PRP/PRFs are instrumental to the design of cryptographic protocols. We investigate the design of dedicated PRP/PRFs for three application areas - secure multiparty computation (MPC), ZKSNARK and zero-knowledge (ZK) based PQ signature schemes. In particular, we explore a family of PRFs which are generalizations of the well-known Feistel design approach followed in a previously proposed application specific design - MiMC. Attributing to this approach we call our family of PRP/PRFs GMiMC.",
+      "id": "d12cb61f286cb4ea491791fcc342d977f2d7c40d",
+      "venue": "ESORICS",
+      "s2Url": "https://semanticscholar.org/paper/d12cb61f286cb4ea491791fcc342d977f2d7c40d",
+      "authors": [
+        "Martin R. Albrecht",
+        "Lorenzo Grassi",
+        "Léo Perrin",
+        "Sebastian Ramacher",
+        "Christian Rechberger",
+        "Dragos Rotaru",
+        "Arnab Roy",
+        "Markus Schofnegger"
+      ],
+      "title": "Feistel Structures for MPC, and More",
+      "tags": ["Bristol"],
+      "citations": 12,
+      "year": 2019
+    },
+    {
+      "label": "RotaruWood19",
+      "abstract": "Most modern actively-secure multiparty computation (MPC) protocols involve generating random data that is secret-shared and authenticated, and using it to evaluate arithmetic or Boolean circuits in different ways. In this work we present a generic method for converting authenticated secretshared data between different fields, and show how to use it to evaluate so-called “mixed” circuits with active security and in the full-threshold setting. A mixed circuit is one in which parties switch between different subprotocols dynamically as computation proceeds, the idea being that some protocols are more efficient for evaluating arithmetic circuits, and others for Boolean circuits. One use case of our switching mechanism is for converting between secret-sharing-based MPC and garbled circuits (GCs). The former is more suited to the evaluation of arithmetic circuits and can easily be used to emulate arithmetic over the integers, whereas the latter is better for Boolean circuits and has constant round complexity. Much work already exists in the two-party semi-honest setting, but the n-party dishonest majority case was hitherto neglected. We call the actively-secure mixed arithmetic/Boolean circuit a marbled circuit. Our implementation showed that mixing protocols in this way allows us to evaluate a linear Support Vector Machine with 400 times fewer AND gates than a solution using GC alone albeit with twice the preprocessing required using only SPDZ (Damg̊ard et al., CRYPTO ’12), and thus our solution offers a tradeoff between online and preprocessing complexity. When evaluating over a WAN network, our online phase is 10 times faster than the plain SPDZ protocol.",
+      "id": "b8d2b995165faad38db42027cebb33cc45deee4d",
+      "venue": "INDOCRYPT",
+      "s2Url": "https://semanticscholar.org/paper/b8d2b995165faad38db42027cebb33cc45deee4d",
+      "authors": [
+        "Dragos Rotaru",
+        "Tim Wood"
+      ],
+      "title": "MArBled Circuits: Mixing Arithmetic and Boolean Circuits with Active Security",
+      "tags": ["Bristol"],
+      "citations": 9,
+      "year": 2019
+    },
+    {
+      "label": "SmartWood18",
+      "abstract": "Recent improvements in the state-of-the-art of MPC for nonfull-threshold access structures introduced the idea of using a collisionresistant hash functions and redundancy in the secret-sharing scheme to construct a communication-efficient MPC protocol which is computationallysecure against malicious adversaries, with abort. The prior work is based on replicated secret-sharing; in this work we extend this methodology to any multiplicative LSSS implementing a Q2 access structure. To do so we need to establish a folklore property of error detection for such LSSS and their associated Monotone Span Programs. In doing so we obtain communication-efficient online and offline protocols for MPC in the pre-processing model.",
+      "id": "cb3ff8bcc0b11a80b17421d7ee83fb3b10463ac4",
+      "venue": "CT-RSA",
+      "s2Url": "https://semanticscholar.org/paper/cb3ff8bcc0b11a80b17421d7ee83fb3b10463ac4",
+      "authors": [
+        "Nigel P. Smart",
+        "Tim Wood"
+      ],
+      "title": "Error-Detecting in Monotone Span Programs with Application to Communication Efficient Multi-Party Computation",
+      "tags": ["Bristol"],
+      "citations": 11,
+      "year": 2019
+    },
+    {
+      "label": "MRS+19",
+      "abstract": "Outsourcing an image classification task raises privacy concerns, both from the image provider’s perspective, who wishes to keep their images confidential, and from the classification algorithm provider’s perspective, who wishes to protect the intellectual property of their classifier. We propose EPIC, an efficient private image classification system based on support vector machine (SVM) learning, secure against malicious adversaries. EPIC builds upon transfer learning techniques known from the Machine Learning (ML) literature and minimizes the load on the privacy-preserving part. Our solution is based on Multiparty Computation (MPC), it is 34 times faster than Gazelle (USENIX’18) –the state-of-the-art in private image classification– and it improves the communication cost by 50 times, with a 7% higher accuracy on CIFAR-10 dataset. For the same accuracy as Gazelle achieves on CIFAR-10, EPIC is 700 times faster and the communication cost is reduced by 500 times.",
+      "id": "ce4126d64dc547f8101af4f1dead36f8df474fc8",
+      "venue": "CT-RSA",
+      "s2Url": "https://semanticscholar.org/paper/ce4126d64dc547f8101af4f1dead36f8df474fc8",
+      "authors": [
+        "Eleftheria Makri",
+        "Dragos Rotaru",
+        "Nigel P. Smart",
+        "Frederik Vercauteren"
+      ],
+      "title": "EPIC: Efficient Private Image Classification (or: Learning from the Masters)",
+      "tags": ["Bristol"],
+      "citations": 16,
+      "year": 2019
+    },
+    {
+      "label": "BCS+19",
+      "abstract": "The HighGear protocol (Eurocrypt 2018) is the fastest currently known approach to preprocessing for the SPDZ Multi-Party Computation scheme. Its backbone is formed by an Ideal Lattice-based Somewhat Homomorphic Encryption Scheme and accompanying Zero-Knowledge proofs. Unfortunately, due to certain characteristics of HighGear such current implementations limit the security parameters in a number of places. This is mainly due to memory and bandwidth consumption constraints. In this work we present a new approach to the ZKPoKs for the SPDZ Multi-Party Computation scheme. We rigorously formalize the original approach of HighGear and show how to improve upon it using a different proof strategy. This allows us to increase the security of the underlying protocols, whilst simultaneously also increasing the performance in terms of memory and bandwidth consumption as well as overall throughput of the SPDZ offline phase.",
+      "id": "0cb6c6d9466a590576f1c1a11cbe3887b0f7c487",
+      "venue": "SCN",
+      "s2Url": "https://semanticscholar.org/paper/0cb6c6d9466a590576f1c1a11cbe3887b0f7c487",
+      "authors": [
+        "Carsten Baum",
+        "Daniele Cozzo",
+        "Nigel P. Smart"
+      ],
+      "title": "Using TopGear in Overdrive: A more efficient ZKPoK for SPDZ",
+      "tags": ["Bristol"],
+      "citations": 3,
+      "year": 2019
+    },
+    {
+      "label": "GMO+19",
+      "abstract": "This works studies the use of the AES block-cipher for Picnic-style signatures, which work in the multiparty-computation-in-the-head model. It applies advancements to arithmetic circuits for the computation of the AES S-box over multiparty computation in the preprocessing model to obtain an improvement of signature sizes of 40% on average compared to using binary circuits for AES-128, AES-192 and AES-256 in combination with previous techniques. This work also discusses other methods for the computation of the S-box and provides insights into the reaches and limits of the multipartycomputation-in-the-head paradigm.",
+      "id": "1cef5499527879ab7a350a052476dfe9645da2c2",
+      "venue": "SCN",
+      "s2Url": "https://semanticscholar.org/paper/1cef5499527879ab7a350a052476dfe9645da2c2",
+      "authors": [
+        "Cyprien Delpech de Saint Guilhem",
+        "Lauren De Meyer",
+        "Emmanuela Orsini",
+        "Nigel P. Smart"
+      ],
+      "title": "BBQ: Using AES in Picnic Signatures",
+      "tags": ["Bristol"],
+      "citations": 2,
+      "year": 2019
+    },
+    {
+      "label": "AlySmart19",
+      "abstract": "In this work, we examine the efficiency of protocols for secure evaluation of basic mathematical functions (\\(\\mathtt {sqrt}, \\mathtt {sin}, \\mathtt {arcsin}\\), amongst others), essential to various application domains. e.g., Artificial Intelligence. Furthermore, we have incorporated our code in state-of-the-art Multiparty Computation (MPC) software, so we can focus on the algorithms to be used as opposed to the underlying MPC system. We make use of practical approaches that, although, some of them, theoretically can be regarded as less efficient, can, nonetheless, be implemented in such software libraries without further adaptation. We focus on basic scientific operations, and introduce a series of data-oblivious protocols based on fixed point representation techniques. Our protocols do not reveal intermediate values and do not need special adaptations from the underlying MPC protocols. We include extensive computational experimentation under various settings and MPC protocols.",
+      "id": "a1f3667697557ea2c99d635f89d70a6f8cad3975",
+      "venue": "ACNS",
+      "s2Url": "https://semanticscholar.org/paper/a1f3667697557ea2c99d635f89d70a6f8cad3975",
+      "authors": [
+        "Abdelrahaman Aly",
+        "Nigel P. Smart"
+      ],
+      "title": "Benchmarking Privacy Preserving Scientific Operations",
+      "tags": ["Bristol"],
+      "citations": 1,
+      "year": 2019
+    },
+    {
+      "label": "KLO+18",
+      "abstract": "We show how to build distributed key generation and distributed decryption procedures for the \\(\\textsf {LIMA} \\) Ring-LWE based post-quantum cryptosystem. Our protocols implement the CCA variants of distributed decryption and are actively secure (with abort) in the case of three parties and honest majority. Our protocols make use of a combination of problem specific MPC protocols, generic garbled circuit based MPC and generic Linear Secret Sharing based MPC. We also, as a by-product, report on the first run-times for the execution of the SHA-3 function in an MPC system.",
+      "id": "6af5ece81f20d1b206ed958d20ca00d733fb19ac",
+      "venue": "ACISP",
+      "s2Url": "https://semanticscholar.org/paper/6af5ece81f20d1b206ed958d20ca00d733fb19ac",
+      "authors": [
+        "Michael Kraitsberg",
+        "Yehuda Lindell",
+        "Valery Osheter",
+        "Nigel P. Smart",
+        "Younes Talibi Alaoui"
+      ],
+      "title": "Adding Distributed Decryption and Key Generation to a Ring-LWE Based CCA Encryption Scheme",
+      "tags": ["Bristol"],
+      "citations": 4,
+      "year": 2019
+    },
+    {
+      "label": "CST+19",
+      "abstract": "",
+      "id": "3a723b14fc9476b82556f8bd1b8895aeabc3dbfa",
+      "venue": "ASIACCS",
+      "s2Url": "https://semanticscholar.org/paper/3a723b14fc9476b82556f8bd1b8895aeabc3dbfa",
+      "authors": [
+        "John Cartlidge",
+        "Nigel P. Smart",
+        "Younes Talibi Alaoui"
+      ],
+      "title": "MPC Joins The Dark Side",
+      "tags": ["Bristol"],
+      "citations": 4,
+      "year": 2019
+    },
+    {
+      "label": "AOR+19",
+      "abstract": "We present modifications to the MPC system SCALE-MAMBA to enable the evaluation of garbled circuit (GC) based MPC functionalities and Linear Secret Sharing (LSSS) based MPC functionalities along side each other. This allows the user to switch between different MPC paradigms to achieve the best performance. To do this we present modifications to the GC-based MPC protocol of Hazay et al. (Asiacrypt 2017) (to enable it to support reactive computation), and combine different aspects of their pre-processing phase with those of Wang et al. (CCS 2017), in order to optimize our pre-processing protocols. We also give a more efficient method for producing daBits (double authenticated Bits) than that presented in the work of Rotaru and Wood (ePrint 2019). Finally, we examine how the functionality can be integrated within the existing MPC framework SCALE-MAMBA.",
+      "id": "9931d696455d8fe19fabb31e8f6ca8df5a9717c3",
+      "venue": "WAHC",
+      "s2Url": "https://semanticscholar.org/paper/9931d696455d8fe19fabb31e8f6ca8df5a9717c3",
+      "authors": [
+        "Abdelrahaman Aly",
+        "Emmanuela Orsini",
+        "Dragos Rotaru",
+        "Nigel P. Smart",
+        "Tim Wood"
+      ],
+      "title": "Zaphod: Efficiently Combining LSSS and Garbled Circuits in SCALE",
+      "tags": ["Bristol"],
+      "citations": 3,
+      "year": 2019
+    },
+    {
+      "label": "ST+19",
+      "abstract": "",
+      "id": "9f71c8ccccda4bbe67eff9ac7bcd7bd6189f600f",
+      "venue": "CCSW",
+      "s2Url": "https://semanticscholar.org/paper/9f71c8ccccda4bbe67eff9ac7bcd7bd6189f600f",
+      "authors": [
+        "Nigel P. Smart",
+        "Titouan Tanguy"
+      ],
+      "title": "TaaS: Commodity MPC via Triples-as-a-Service",
+      "tags": ["Bristol"],
+      "citations": 2,
+      "year": 2019
+    },
+    {
+      "label": "OSV+20",
+      "abstract": "",
+      "id": "e04298f83fd5169725c1b6530d17667b4c4e8ec0",
+      "venue": "CT-RSA",
+      "s2Url": "https://semanticscholar.org/paper/e04298f83fd5169725c1b6530d17667b4c4e8ec0",
+      "authors": [
+        "Emmanuela Orsini",
+        "Nigel P. Smart",
+        "Frederik Vercauteren"
+      ],
+      "title": "Overdrive2k: Efficient Secure MPC over $\\mathbb {Z}_{2^k}$ from Somewhat Homomorphic Encryption",
+      "tags": ["Bristol"],
+      "citations": 4,
+      "year": 2020
+    },
+    {
+      "label": "SmartAlaoui19",
+      "abstract": "We show how to perform a full-threshold n-party actively secure MPC protocol over a subgroup of order p of an elliptic curve group E(K). This is done by utilizing a full-threshold n-party actively secure MPC protocol over Fp in the pre-processing model (such as SPDZ), and then locally mapping the Beaver triples from this protocol into equivalent triples for the elliptic curve. This allows us to transform essentially any one-party protocol over an elliptic curve, into an n-party one. As an example we show how to transform the shuffle protocol of Abe into an n-party protocol. This application requires us to also give an MPC protocol to derive the switches in a Waksman network from a generic permutation, which may be of independent interest.",
+      "id": "68ecad9bf79a26aa66e71412ed80ffda26d11b37",
+      "venue": "IMACC",
+      "s2Url": "https://semanticscholar.org/paper/68ecad9bf79a26aa66e71412ed80ffda26d11b37",
+      "authors": [
+        "Nigel P. Smart",
+        "Younes Talibi Alaoui"
+      ],
+      "title": "Distributing any Elliptic Curve Based Protocol: With an Application to MixNets",
+      "tags": ["Bristol"],
+      "citations": 2,
+      "year": 2019
+    },
+ 
+    {
+      "label": "ABL+18",
+      "abstract": "We discuss the widely increasing range of applications of a cryptographic technique called Multi-Party Computation. For many decades this was perceived to be of purely theoretical interest, but now it has started to find application in a number of use cases. We highlight in this paper a number of these, ranging from securing small high value items such as cryptographic keys, through to securing an entire database.",
+      "id": "2c88f9531737e817147e7e22fe3409d8fb03e430",
+      "venue": "Computer Journal",
+      "s2Url": "https://semanticscholar.org/paper/2c88f9531737e817147e7e22fe3409d8fb03e430",
+      "authors": [
+        "David W. Archer",
+        "Dan Bogdanov",
+        "Yehuda Lindell",
+        "Liina Kamm",
+        "Kurt Nielsen",
+        "Jakob Illeborg Pagter",
+        "Nigel P. Smart",
+        "Rebecca N. Wright"
+      ],
+      "title": "From Keys to Databases - Real-World Applications of Secure Multi-Party Computation",
+      "tags": ["Galois", "Rutgers", "Bristol"],
+      "citations": 41,
+      "year": 2018
+    },
+    {
+      "label": "DDC+16",
+      "abstract": "The security of order-revealing encryption (ORE) has been unclear since its invention. Dataset characteristics for which ORE is especially insecure have been identified, such as small message spaces and low-entropy distributions. On the other hand, properties like one-wayness on uniformly-distributed datasets have been proved for ORE constructions.\n This work shows that more plaintext information can be extracted from ORE ciphertexts than was previously thought. We identify two issues: First, we show that when multiple columns of correlated data are encrypted with ORE, attacks can use the encrypted columns together to reveal more information than prior attacks could extract from the columns individually. Second, we apply known attacks, and develop new attacks, to show that the leakage of concrete ORE schemes on non-uniform data leads to more accurate plaintext recovery than is suggested by the security theorems which only dealt with uniform inputs.",
+      "id": "68a5e5de2ab6d79a7a78b8020be163cf9b8d02d0",
+      "venue": "CCS '16",
+      "s2Url": "https://semanticscholar.org/paper/68a5e5de2ab6d79a7a78b8020be163cf9b8d02d0",
+      "authors": [
+        "F. Betül Durak",
+        "Thomas Dubuisson",
+        "David Cash"
+      ],
+      "title": "What Else is Revealed by Order-Revealing Encryption?",
+      "tags": ["Galois", "Rutgers"],
+      "citations": 72,
+      "year": 2016
+    },
+    {
+      "label": "MazloomGordon17",
+      "abstract": "We explore a new security model for secure computation on large datasets. We assume that two servers have been employed to compute on private data that was collected from many users, and, in order to improve the efficiency of their computation, we establish a new tradeoff with privacy. Specifically, instead of claiming that the servers learn nothing about the input values, we claim that what they do learn from the computation preserves the differential privacy of the input. Leveraging this relaxation of the security model allows us to build a protocol that leaks some information in the form of access patterns to memory, while also providing a formal bound on what is learned from the leakage. We then demonstrate that this leakage is useful in a broad class of computations. We show that computations such as histograms, PageRank and matrix factorization, which can be performed in common graph-parallel frameworks such as MapReduce or Pregel, benefit from our relaxation. We implement a protocol for securely executing graph-parallel computations, and evaluate the performance on the three examples just mentioned above. We demonstrate marked improvement over prior implementations for these computations.",
+      "id": "886cd585c655094563addd591bd0d32730c86d63",
+      "venue": "IACR Cryptology ePrint Archive",
+      "s2Url": "https://semanticscholar.org/paper/886cd585c655094563addd591bd0d32730c86d63",
+      "authors": [
+        "Sahar Mazloom",
+        "S. D. Gordon"
+      ],
+      "title": "Differentially Private Access Patterns in Secure Computation",
+      "tags": ["GMU"],
+      "citations": 72,
+      "year": 2017
+    },
+    {
+      "label": "GRW+18",
+      "abstract": "We construct new four-party protocols for secure computation that are secure against a single malicious corruption. Our protocols can perform computations over a binary ring, and require sending just 1.5 ring elements per party, per gate. In the special case of Boolean circuits, this amounts to sending 1.5 bits per party, per gate. One of our protocols is robust, yet requires almost no additional communication. Our key technique can be viewed as a variant of the “dual execution” approach, but, because we rely on four parties instead of two, we can avoid any leakage, achieving the standard notion of security.",
+      "id": "3d23770060a396786587e4ce17797bf40d1ecbe2",
+      "venue": "ASIACRYPT",
+      "s2Url": "https://semanticscholar.org/paper/3d23770060a396786587e4ce17797bf40d1ecbe2",
+      "authors": [
+        "S. D. Gordon",
+        "Samuel Ranellucci",
+        "Xiao Wang"
+      ],
+      "title": "Secure Computation with Low Communication from Cross-checking",
+      "tags": ["GMU"],
+      "citations": 9,
+      "year": 2018
+    },
+    {
+      "label": "GMU20",
+      "abstract":"",
+      "id": "TBD1",
+      "venue": "Submitted",
+      "s2Url": "TBD",
+      "authors": [
+          "TBD"
+      ],
+      "title": "Secure matrix factorization at national scale",
+      "tags": ["GMU"],
+      "citations": 0,
+      "year": 2020
+    },
+    {
+      "label": "LRG+19",
+      "abstract": "We construct new protocols for two parties to securely compute on the items in their intersection. Our protocols make use of an untrusted third party that has no input. The use of this party allows us to construct highly efficient protocols that are secure against a single malicious corruption.",
+      "id": "b8b889fcfb2703ae5d9f8e67b4e43cf8b536c026",
+      "venue": "CCS",
+      "s2Url": "https://semanticscholar.org/paper/b8b889fcfb2703ae5d9f8e67b4e43cf8b536c026",
+      "authors": [
+        "Phi Hung Le",
+        "Samuel Ranellucci",
+        "S. D. Gordon"
+      ],
+      "title": "Two-party Private Set Intersection with an Untrusted Third Party",
+      "tags": ["GMU"],
+      "citations": 0,
+      "year": 2019
+    },
+    {
+      "label": "MHR+20",
+      "abstract":"",
+      "id": "e785a3a5e6d7cd1b6069aa40ae3f3106f35ec925",
+      "venue": "USENIX",
+      "s2Url": "https://semanticscholar.org/paper/e785a3a5e6d7cd1b6069aa40ae3f3106f35ec925",
+      "authors": [
+        "Sahar Mazloom",
+        "Phi Hung Le",
+        "Samuel Ranellucci",
+        "S. D. Gordon"
+      ],
+      "title": "Secure parallel computation on national scale volumes of data",
+      "tags": ["GMU"],
+      "citations": 0,
+      "year": 2020
+    },
+    {
+      "label": "PGW+17",
+      "abstract": "Efficiently searchable and easily deployable encryption schemes enable an untrusted, legacy service such as a relational database engine to perform searches over encrypted data. The ease with which such schemes can be deployed on top of existing services makes them especially appealing in operational environments where encryption is needed but it is not feasible to replace large infrastructure components like databases or document management systems. Unfortunately all previously known approaches for efficiently searchable encryption are vulnerable to inference attacks where an adversary can use knowledge of the distribution of the data to recover the plaintext with high probability. In this paper, we present the first efficiently searchable, easily deployable database encryption scheme that is provably secure against inference attacks even when used with real, low-entropy data. Ours is also the only efficiently searchable construction that provides any provable security for protecting multiple related attributes (columns) in the same database. Using this ESE construction as a building block, we give an efficient construction for performing range queries over encrypted data. We implemented our constructions in Haskell and used them to query encrypted databases of up to 10 million records. In experiments with a local Postgres database and with a Google Cloud Platform database, the response time for our encrypted queries is not excessively slower than for plaintext queries. With the use of parallel query processing, our encrypted queries can achieve similar and in some cases superior performance to queries on the plaintext.",
+      "id": "fe1c81c00d516ef38da1a429d721e1d05cc488c0",
+      "venue": "IACR Cryptology ePrint Archive",
+      "s2Url": "https://semanticscholar.org/paper/fe1c81c00d516ef38da1a429d721e1d05cc488c0",
+      "authors": [
+        "David Pouliot",
+        "Scott Griffy",
+        "Charles V. Wright"
+      ],
+      "title": "The Strength of Weak Randomization: Efficiently Searchable Encryption with Minimal Leakage",
+      "tags": ["PSU"],
+      "citations": 2,
+      "year": 2017
+    },
+    {
+      "label": "PGW+16",
+      "abstract":"",
+      "id": "a82c0e1adb3ab8cca18f2f48965e5aaa707f9221",
+      "venue":"2016 Annual Conference on Information Science and Systems (CISS)",
+      "s2Url": "https://semanticscholar.org/paper/a82c0e1adb3ab8cca18f2f48965e5aaa707f9221",
+      "authors": [
+          "Hafiz Imtiaz",
+          "Rogers F. Silva",
+          "Bradley T. Baker",
+          "Sergey M. Plis",
+          "Anand D. Sarwate",
+          "Vince D. Calhoun"
+      ],
+      "title": "Privacy-preserving source separation for distributed data using independent component analysis",
+      "tags": ["Rutgers"],
+      "citations": 8,
+      "year": 2016
+    },
+    {
+      "label": "PSW+16",
+      "abstract":"",
+      "id": "883567313d21c8448b3e0154e302961ac916836a",
+      "venue":"Front. Neurosci.",
+      "s2Url": "https://semanticscholar.org/paper/883567313d21c8448b3e0154e302961ac916836a",
+      "authors": [
+          "Sergey M. Plis",
+          "Anand D. Sarwate",
+          "Dylan Wood",
+          "Christopher Dieringer",
+          "Drew Landis",
+          "C. Reed",
+          "Sandeep R. Panta",
+          "Jessica A. Turner",
+          "Jody M. Shoemaker",
+          "Kim W. Carter",
+          "Paul T. Thompson",
+          "Kent Hutchison",
+          "Vince D. Calhoun"
+      ],
+      "title": "COINSTAC: A Privacy Enabled Model and Prototype for Leveraging and Processing Decentralized Brain Imaging Data",
+      "tags": ["Rutgers"],
+      "citations": 23,
+      "year": 2016
+    },
+    {
+      "label": "GSW+16",
+      "abstract":"",
+      "id": "ac23b6729bede64ab95655a65168a35dcb9e1c56",
+      "venue":"AISec",
+      "s2Url": "https://semanticscholar.org/paper/ac23b6729bede64ab95655a65168a35dcb9e1c56",
+      "authors": [
+          "Mohsen Ghassemi",
+          "Anand D. Sarwate",
+          "Rebecca N. Wright"
+      ],
+      "title": "Differentially Private Online Active Learning with Applications to Anomaly Detection",
+      "tags": ["Rutgers"],
+      "citations": 7,
+      "year": 2016
+    },
+    {
+      "label": "WSC+16",
+      "abstract":"",
+      "id": "df286f818b09a0829d8daef1baecf3a893b4accc",
+      "venue": "GlobalSIP",
+      "s2Url": "https://semanticscholar.org/paper/df286f818b09a0829d8daef1baecf3a893b4accc",
+      "authors": [
+          "Lu Wei",
+          "Anand D. Sarwate",
+          "Jukka Corander",
+          "Alfred O. Hero",
+          "Vahid Tarokh"
+      ],
+      "title": "Analysis of a privacy-preserving PCA algorithm using random matrix theory",
+      "tags": ["Rutgers"],
+      "citations": 5,
+      "year": 2016
+    },
+    {
+      "label": "WSC+16",
+      "abstract":"",
+      "id": "0dc1433b35091767e57f5bd4181ae68fa4a5a7b8",
+      "venue": "2017 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+      "s2Url": "https://semanticscholar.org/paper/0dc1433b35091767e57f5bd4181ae68fa4a5a7b8",
+      "authors": [
+          "Nikolas P. Wojtalewicz",
+          "Rogers F. Silva",
+          "Vince D. Calhoun",
+          "Anand D. Sarwate",
+          "Sergey M. Plis"
+      ],
+      "title": "Decentralized independent vector analysis",
+      "tags": ["Rutgers"],
+      "citations": 9,
+      "year": 2016
+    },
+    {
+      "label": "WGL+17",
+      "abstract":"",
+      "id": "96b92737b6a37901b67fb1cac786dbe0aa9e8f50",
+      "venue": "2017 IEEE Symposium on Security and Privacy (SP)",
+      "s2Url": "https://semanticscholar.org/paper/96b92737b6a37901b67fb1cac786dbe0aa9e8f50",
+      "authors": [
+          "Liang Wang",
+          "Paul Grubbs",
+          "Jiahui Lu",
+          "Vincent Bindschaedler",
+          "David Cash",
+          "Thomas Ristenpart"
+      ],
+      "title":"Side-Channel Attacks on Shared Search Indexes",
+      "tags": ["Rutgers"],
+      "citations": 4,
+      "year": 2017
+    },
+    {
+      "label": "DurakVaudenay17",
+      "abstract": "The National Institute of Standards and Technology (NIST) recently published a Format-Preserving Encryption standard accepting two Feistel structure based schemes called FF1 and FF3. Particularly, FF3 is a tweakable block cipher based on an 8-round Feistel network. In CCS 2016, Bellare et al. gave an attack to break FF3 (and FF1) with time and data complexity \\(O(N^5\\log (N))\\), which is much larger than the code book (but using many tweaks), where \\(N^2\\) is domain size to the Feistel network. In this work, we give a new practical total break attack to the FF3 scheme (also known as BPS scheme). Our FF3 attack requires \\(O(N^{\\frac{11}{6}})\\) chosen plaintexts with time complexity \\(O(N^{5})\\). Our attack was successfully tested with \\(N\\leqslant 2^9\\). It is a slide attack (using two tweaks) that exploits the bad domain separation of the FF3 design. Due to this weakness, we reduced the FF3 attack to an attack on 4-round Feistel network. Biryukov et al. already gave a 4-round Feistel structure attack in SAC 2015. However, it works with chosen plaintexts and ciphertexts whereas we need a known-plaintext attack. Therefore, we developed a new generic known-plaintext attack to 4-round Feistel network that reconstructs the entire tables for all round functions. It works with \\(N^{\\frac{3}{2}} \\left( \\frac{N}{2} \\right) ^{\\frac{1}{6}}\\) known plaintexts and time complexity \\(O(N^{3})\\). Our 4-round attack is simple to extend to five and more rounds with complexity \\(N^{(r-5)N+o(N)}\\). It shows that FF1 with \\(N=7\\) and FF3 with \\(7\\leqslant N\\leqslant 10\\) do not offer a 128-bit security. Finally, we provide an easy and intuitive fix to prevent the FF3 scheme from our \\(O(N^{5})\\) attack.",
+      "id": "3bc20ea632438647a51b99166e88d438a6122180",
+      "venue": "CRYPTO",
+      "s2Url": "https://semanticscholar.org/paper/3bc20ea632438647a51b99166e88d438a6122180",
+      "authors": [
+        "F. Betül Durak",
+        "Serge Vaudenay"
+      ],
+      "title": "Breaking the FF3 Format-Preserving Encryption Standard over Small Domains",
+      "tags": ["Rutgers"],
+      "citations": 11,
+      "year": 2017
+    },
+    {
+      "label": "Keynote",
+      "abstract":"",
+      "venue": "2017 Workshop on Women in Cyber Security",
+      "authors": [
+          "Rutgers"
+      ],
+      "title": "Keynote: Privacy in Today's World",
+      "tags": ["Rutgers"],
+      "citations": 0,
+      "year": 2017
+    },
+    {
+      "label": "BSW+17",
+      "abstract":"",
+      "id": "c745f89200b85e04dc4c14c425fb6f2408df06f3",
+      "venue": "AISec",
+      "s2Url": "https://semanticscholar.org/paper/c745f89200b85e04dc4c14c425fb6f2408df06f3",
+      "authors": [
+          "Daniel M. Bittner",
+          "Anand D. Sarwate",
+          "Rebecca N. Wright"
+      ],
+      "title":"Differentially Private Noisy Search with Applications to Anomaly Detection (Abstract)",
+      "tags": ["Rutgers"],
+      "citations": 1,
+      "year": 2017
+    },
+    {
+      "label": "ImtiazSarwate17",
+      "abstract":"",
+      "id": "a3790e574f88033896cd41bae4b14232310c4899",
+      "venue":"GlobalSIP",
+      "s2Url": "https://semanticscholar.org/paper/a3790e574f88033896cd41bae4b14232310c4899",
+      "authors": [
+          "Hafiz Imtiaz",
+          "Anand D. Sarwate"
+      ],
+      "title":"Differentially-private canonical correlation analysis",
+      "tags": ["Rutgers"],
+      "citations": 5,
+      "year": 2017
+    },
+    {
+      "label": "ImtiazSarwate18",
+      "abstract":"",
+      "id": "98c61f0da5ee284d4da9c5496359e55921a4d44f",
+      "venue":"2018 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+      "s2Url": "https://semanticscholar.org/paper/98c61f0da5ee284d4da9c5496359e55921a4d44f",
+      "authors": [
+          "Hafiz Imtiaz",
+          "Anand D. Sarwate"
+      ],
+      "title":"Differentially Private Distributed Principal Component Analysis",
+      "tags": ["Rutgers"],
+      "citations": 10,
+      "year": 2018
+    },
+    {
+      "label": "ImtiazSarwate18",
+      "abstract":"",
+      "id": "e9b78bf8a18a97b95e24283d3a8b288230b687ab",
+      "venue":"ICASSP",
+      "s2Url": "https://semanticscholar.org/paper/e9b78bf8a18a97b95e24283d3a8b288230b687ab",
+      "authors": [
+          "Hafiz Imtiaz",
+          "Anand D. Sarwate"
+      ],
+      "title":"Improved Algorithms for Differentially Private Orthogonal Tensor Decomposition",
+      "tags": ["Rutgers"],
+      "citations": 3,
+      "year": 2018
+    },
+    {
+      "label": "BGC+17",
+      "abstract":"",
+      "id": "df59970e87a0d027350cc14235838411c30db669",
+      "venue":"PVLDB",
+      "s2Url": "https://semanticscholar.org/paper/df59970e87a0d027350cc14235838411c30db669",
+      "authors": [
+          "Vincent Bindschaedler",
+          "Paul Grubbs",
+          "David Cash",
+          "Thomas Ristenpart",
+          "Vitaly Shmatikov"
+      ],
+      "title":"The Tao of Inference in Privacy-Protected Databases",
+      "tags":["Rutgers"],
+      "citations": 24,
+      "year": 2017
+    },
+    {
+      "label": "KSS+18",
+      "abstract":"",
+      "id": "d0883c0d91ede912081fedb88e358f464a0a9dc3",
+      "venue":"IEEE Transactions on Information Forensics and Security",
+      "s2Url": "https://semanticscholar.org/paper/d0883c0d91ede912081fedb88e358f464a0a9dc3",
+      "authors": [
+          "Kousha Kalantari",
+          "Lalitha Sankar",
+          "Anand D. Sarwate"
+      ],
+      "title":"Robust Privacy-Utility Tradeoffs Under Differential Privacy and Hamming Distortion",
+      "tags": ["Rutgers"],
+      "citations": 6,
+      "year": 2018
+    },
+    {
+      "label": "CashZhang17",
+      "abstract": "We consider a security definition of Chenette, Lewi, Weis, and Wu for order-revealing encryption (ORE) and order-preserving encryption (OPE) (FSE 2016). Their definition says that the comparison of two ciphertexts should only leak the index of the most significant bit on which they differ. While their work could achieve order-revealing encryption with short ciphertexts that expand the plaintext by a factor \\(\\approx 1.58\\), it could only find order-preserving encryption with longer ciphertexts that expanded the plaintext by a security-parameter factor. We give evidence that this gap between ORE and OPE is inherent, by proving that any OPE meeting the information-theoretic version of their security definition (for instance, in the random oracle model) must have ciphertext length close to that of their constructions. We extend our result to identify an abstract security property of any OPE that will result in the same lower bound.",
+      "id": "87eed8a77ca8f1d61a0958e9dfb62001644b286e",
+      "venue": "TCC",
+      "s2Url": "https://semanticscholar.org/paper/87eed8a77ca8f1d61a0958e9dfb62001644b286e",
+      "authors": [
+        "David Cash",
+        "Cong Zhang"
+      ],
+      "title": "A Ciphertext-Size Lower Bound for Order-Preserving Encryption with Limited Leakage",
+      "tags": ["Rutgers"],
+      "citations": 3,
+      "year": 2017
+    },
+    {
+      "label": "ImtiazSarwate18",
+      "abstract":"",
+      "id": "dfe4d67e5b5afe6d1c42737993af9617f09658eb",
+      "venue":"IEEE Journal of Selected Topics in Signal Processing",
+      "s2Url": "https://semanticscholar.org/paper/dfe4d67e5b5afe6d1c42737993af9617f09658eb",
+      "authors": [
+          "Hafiz Imtiaz",
+          "Anand D. Sarwate"
+      ],
+      "title":"Distributed Differentially Private Algorithms for Matrix and Tensor Factorization",
+      "tags": ["Rutgers"],
+      "citations": 6,
+      "year": 2018
+    },
+    {
+      "label": "CLO+18",
+      "abstract": "Order-revealing encryption (ORE) is a primitive for outsourcing encrypted databases which allows for efficiently performing range queries over encrypted data. Unfortunately, a series of works, starting with Naveed et al. (CCS 2015), have shown that when the adversary has a good estimate of the distribution of the data, ORE provides little protection. In this work, we consider the case that the database entries are drawn identically and independently from a distribution of known shape, but for which the mean and variance are not (and thus the attacks of Naveed et al. do not apply). We define a new notion of security for ORE, called parameter-hiding ORE, which maintains the secrecy of these parameters. We give a construction of ORE satisfying our new definition from bilinear maps.",
+      "id": "9ffa93d1d1b83abbcb1df1ddab8bacd78647d52d",
+      "venue": "ASIACRYPT",
+      "s2Url": "https://semanticscholar.org/paper/9ffa93d1d1b83abbcb1df1ddab8bacd78647d52d",
+      "authors": [
+        "David Cash",
+        "Feng-Hao Liu",
+        "Adam O'Neill",
+        "Mark Zhandry",
+        "Cong Zhang"
+      ],
+      "title": "Parameter-Hiding Order Revealing Encryption",
+      "tags": ["Rutgers"],
+      "citations": 4,
+      "year": 2018
+    },
+    {
+      "label": "Rut20",
+      "abstract":"",
+      "id": "TBD2",
+      "venue": "Submitted",
+      "s2Url": "TBD",
+      "authors": [
+          "TBD"
+      ],
+      "title": "Differentially Private Online Active Learning: Theory and Practice",
+      "tags": ["Rutgers"],
+      "citations": 0,
+      "year": 2019
+    },
+    {
+      "label": "IMS+19",
+      "abstract":"",
+      "id": "92681d6b62883d5bd841472cbd3d4825e5777b43",
+      "venue":"ArXiv",
+      "s2Url": "https://semanticscholar.org/paper/92681d6b62883d5bd841472cbd3d4825e5777b43",
+      "authors": [
+          "Hafiz Imtiaz",
+          "Jafar Mohammadi",
+          "Anand D. Sarwate"
+      ],
+      "title":"Distributed Differentially Private Computation of Functions with Correlated Noise",
+      "tags": ["Rutgers"],
+      "citations": 2,
+      "year": 2019
+    },
+    {
+      "label": "NKS+19",
+      "abstract":"",
+      "id": "ab0019fd3944ccaeea72a28e17501e9147647abe",
+      "venue":"AISTATS",
+      "s2Url": "https://semanticscholar.org/paper/ab0019fd3944ccaeea72a28e17501e9147647abe",
+      "authors": [
+          "Konstantinos E. Nikolakakis",
+          "Dionysios S. Kalogerias",
+          "Anand D. Sarwate"
+      ],
+      "title":"Learning Tree Structures from Noisy Data",
+      "tags": ["Rutgers"],
+      "citations": 1,
+      "year": 2019
+    },
+    {
+      "label": "ImtiazSarwate19",
+      "abstract":"",
+      "id": "acc523459d2235f345c267df541d45cd35cb5463",
+      "venue":" Signal Processing (ICASSP)",
+      "s2Url": "https://semanticscholar.org/paper/acc523459d2235f345c267df541d45cd35cb5463",
+      "authors": [
+          "Hafiz Imtiaz",
+          "Anand D. Sarwate"
+      ],
+      "title":"Distributed Differentially-private Canonical Correlation Analysis",
+      "tags": ["Rutgers"],
+      "citations": 0,
+      "year": 2019
+    },
+    {
+      "label": "NKS+19",
+      "abstract":"",
+      "id": "1bccb1575756a4bde2556a9fbe34f809b0653036",
+      "venue":"Submitted",
+      "s2Url": "https://semanticscholar.org/paper/1bccb1575756a4bde2556a9fbe34f809b0653036",
+      "authors": [
+          "Konstantinos E. Nikolakakis",
+          "Dionysios S. Kalogerias",
+          "Anand D. Sarwate"
+      ],
+      "title":"Predictive Learning on Sign-Valued Hidden Markov Trees",
+      "tags": ["Rutgers"],
+      "citations": 1,
+      "year": 2018
+    }
+    {
+      "label": "Sub+19",
+      "abstract":"",
+      "id": "TBD3",
+      "venue":"Submitted",
+      "s2Url": "",
+      "authors": [
+          "TBD"
+      ],
+      "title":"Network Traffic Shaping for Enhancing Privacy in IoT Systems",
+      "tags": ["Rutgers"],
+      "citations": 0,
+      "year": 2020
+    },
+    {
+      "label": "IMS+20",
+      "abstract":"",
+      "id": "5157281108b2bd139a759f542b8f58c80d02f9ad",
+      "venue":"IEEE Transactions on Signal Processing",
+      "s2Url": "https://semanticscholar.org/paper/5157281108b2bd139a759f542b8f58c80d02f9ad",
+      "authors": [
+          "Hafiz Imtiaz",
+          "Jafar Mohammadi",
+          "Rogers F. Silva",
+          "Bradley T. Baker",
+          "Sergey M. Plis",
+          "Anand D. Sarwate",
+          "Vince Calhoun"
+      ],
+      "title":"Improved Differentially Private Decentralized Source Separation for fMRI Data",
+      "tags": ["Rutgers"],
+      "citations": 0,
+      "year": 2020
+    },
+    {
+      "label": "TBD4",
+      "abstract":"",
+      "id": "TBD4",
+      "venue":"Submitted",
+      "s2Url": "",
+      "authors": [""
+      ],
+      "title":"Bandit algorithms for quantiles with and without privacy (tentative title)",
+      "tags": ["Rutgers"],
+      "citations": 0,
+      "year": 2020
+    }
+ 
+  ]
+}
+ 
