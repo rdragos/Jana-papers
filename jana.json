@@ -85,7 +85,7 @@
       "label": "LSS+16",
       "abstract": "We present a multi-party computation protocol in the case of dishonest majority which has very low round complexity. Our protocol sits philosophically between Gentry's Fully Homomorphic Encryption based protocol and the SPDZ-BMR protocol of Lindell et al. CRYPTO 2015. Our protocol avoids various inefficiencies of the previous two protocols. Compared to Gentry's protocol we only require Somewhat Homomorphic Encryption SHE. Whilst in comparison to the SPDZ-BMR protocol we require only a quadratic complexity in the number of players as opposed to cubic, we have fewer rounds, and we require less proofs of correctness of ciphertexts. Additionally, we present a variant of our protocol which trades the depth of the garbling circuit computed using SHE for some more multiplications in the offline and online phases.",
       "id": "d22a494695ae5aa83b499f0c41106cdd3b9e0e68",
-      "venue": "IACR Cryptology ePrint Archive",
+      "venue": "TCC",
       "s2Url": "https://semanticscholar.org/paper/d22a494695ae5aa83b499f0c41106cdd3b9e0e68",
       "authors": [
         "Yehuda Lindell",
@@ -185,7 +185,7 @@
       "label": "KPR17",
       "abstract": "SPDZ denotes a multiparty computation scheme in the preprocessing model based on somewhat homomorphic encryption (SHE) in the form of BGV. At CCS ’16, Keller et al. presented MASCOT, a replacement of the preprocessing phase using oblivious transfer instead of SHE, improving by two orders of magnitude on the SPDZ implementation by Damgard et al. (ESORICS ’13). In this work, we show that using SHE is faster than MASCOT in many aspects: \n \n1. \n \nWe present a protocol that uses semi-homomorphic (addition-only) encryption. For two parties, our BGV-based implementation is six times faster than MASCOT on a LAN and 20 times faster in a WAN setting. The latter is roughly the reduction in communication. \n \n \n \n \n2. \n \nWe show that using the proof of knowledge in the original work by Damgard et al. (Crypto ’12) is more efficient in practice than the one used in the implementation mentioned above by about one order of magnitude. \n \n \n \n \n3. \n \nWe present an improvement to the verification of the aforementioned proof of knowledge that increases the performance with a growing number of parties, doubling it for 16 parties.",
       "id": "922a6775722dcc59850262beba325516ce2d027d",
-      "venue": "IACR Cryptology ePrint Archive",
+      "venue": "EUROCRYPT",
       "s2Url": "https://semanticscholar.org/paper/922a6775722dcc59850262beba325516ce2d027d",
       "authors": [
         "Marcel Keller",
@@ -505,7 +505,7 @@
       "label": "MazloomGordon17",
       "abstract": "We explore a new security model for secure computation on large datasets. We assume that two servers have been employed to compute on private data that was collected from many users, and, in order to improve the efficiency of their computation, we establish a new tradeoff with privacy. Specifically, instead of claiming that the servers learn nothing about the input values, we claim that what they do learn from the computation preserves the differential privacy of the input. Leveraging this relaxation of the security model allows us to build a protocol that leaks some information in the form of access patterns to memory, while also providing a formal bound on what is learned from the leakage. We then demonstrate that this leakage is useful in a broad class of computations. We show that computations such as histograms, PageRank and matrix factorization, which can be performed in common graph-parallel frameworks such as MapReduce or Pregel, benefit from our relaxation. We implement a protocol for securely executing graph-parallel computations, and evaluate the performance on the three examples just mentioned above. We demonstrate marked improvement over prior implementations for these computations.",
       "id": "886cd585c655094563addd591bd0d32730c86d63",
-      "venue": "IACR Cryptology ePrint Archive",
+      "venue": "CCS",
       "s2Url": "https://semanticscholar.org/paper/886cd585c655094563addd591bd0d32730c86d63",
       "authors": [
         "Sahar Mazloom",
@@ -531,20 +531,6 @@
       "tags": ["GMU"],
       "citations": 9,
       "year": 2018
-    },
-    {
-      "label": "GMU20",
-      "abstract":"",
-      "id": "TBD1",
-      "venue": "Submitted",
-      "s2Url": "TBD",
-      "authors": [
-          "TBD"
-      ],
-      "title": "Secure matrix factorization at national scale",
-      "tags": ["GMU"],
-      "citations": 0,
-      "year": 2020
     },
     {
       "label": "LRG+19",
@@ -575,6 +561,20 @@
         "S. D. Gordon"
       ],
       "title": "Secure parallel computation on national scale volumes of data",
+      "tags": ["GMU"],
+      "citations": 0,
+      "year": 2020
+    },
+    {
+      "label": "GMU20",
+      "abstract":"",
+      "id": "TBD1",
+      "venue": "Submitted",
+      "s2Url": "TBD",
+      "authors": [
+          "TBD"
+      ],
+      "title": "Malicious Secure Private Set Intersection From Vector OLE",
       "tags": ["GMU"],
       "citations": 0,
       "year": 2020
